@@ -21,6 +21,14 @@ func PrintWidth(x int) {
 
 func Raid1a(x, y int) {
 
+	if x < 0 {
+		x = x * (-1)
+	}
+
+	if y < 0 {
+		y = x * (-1)
+	}
+
 	PrintWidth(x)
 
 	if y > 1 {
