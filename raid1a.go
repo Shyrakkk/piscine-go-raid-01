@@ -21,12 +21,16 @@ func PrintWidth(x int) {
 
 func Raid1a(x, y int) {
 
+	if x == 0 && y == 0 {
+		return
+	}
+
 	if x < 0 {
-		x = x * (-1)
+		return
 	}
 
 	if y < 0 {
-		y = x * (-1)
+		return
 	}
 
 	PrintWidth(x)
@@ -46,5 +50,4 @@ func Raid1a(x, y int) {
 			z01.PrintRune(10)
 		}
 	}
-
 }
