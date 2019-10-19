@@ -23,7 +23,7 @@ func PrintWidth2(x int, last int) {
 	z01.PrintRune(10)
 }
 
-func Raid1a(x, y int) {
+func Raid1b(x, y int) {
 
 	if x == 0 && y == 0 {
 		return
